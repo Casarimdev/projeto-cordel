@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion';
+    src: url(fontes/PassionOne-Bold.ttf) format('truetype');
+    
+    
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+html,body{
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+:root{
+    --fonte1:'Passion';
+    --fonte2:'Sriracha';
+    --fonte3:'Verdana, Geneva, Tahoma, sans-serif';
+
+}
+.cabeçalho{
+    background-color: black;
+    
+    height: 320px;
+    max-width: 2000px;
+    min-width: 400px
+    
+}
+h1{
+    max-width: 1100;
+    min-width: 400px;
+    font-family: var(--fonte1);
+    font-size: 18vh;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+    
+   
+}
+h3{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.Milton{
+    color: white;
+    text-decoration: none;
+}
+
+.Milton:hover{
+    text-decoration: underline;
+    
+}
