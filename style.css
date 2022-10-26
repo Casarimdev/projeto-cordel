@@ -41,6 +41,7 @@ h1{
     min-width: 500px;
     font-family: var(--fonte1);
     font-size: 18vh;
+    font-variant: small-caps;
     color: white;
     text-align: center;
     padding-top: 50px;
