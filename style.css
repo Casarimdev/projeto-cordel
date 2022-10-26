@@ -182,16 +182,43 @@ footer{
     }
 }
 
-@media(max-width:400px)
+@media(max-width:450px)
 {
     .p1,.p2{
-        font-size: 25px;
+        font-size: 26px;
     }
 }
 
-@media(max-width:340px)
+@media (max-width:450px)
+{
+    h1{
+        font-size: 9vh;
+        
+        
+    }
+
+    .cabeçalho,.joaninha,.livro,footer{
+        width: 100%;
+        padding-right: 88px;
+    }
+}
+@media (max-width:382px)
 {
     .p1,.p2{
-        font-size: 18px;
+        font-size: 24px;
+        
+        
+    }
+    h3{
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+    .cabeçalho,.joaninha,.livro,footer{
+        width: 100%;
+        padding-right: 120px;
+    }
+
+    footer{
+        padding-left: 65px;
     }
 }
