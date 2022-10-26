@@ -146,16 +146,38 @@ footer{
     }
 }
 
-@media(max-width:950px)
+
+@media(max-width:1040px)
 {
     .p1,.p2{
-        font-size: 4vh;
+        font-size: 37px;
     }
 }
 
-@media(max-width:550px)
+@media(max-width:770px)
 {
     .p1,.p2{
-        font-size: 3vh;
+        font-size: 35px;
+    }
+}
+
+@media(max-width:625px)
+{
+    .p1,.p2{
+        font-size: 33px;
+    }
+}
+
+@media(max-width:555px)
+{
+    .p1,.p2{
+        font-size: 32px;
+    }
+}
+
+@media(max-width:530px)
+{
+    .p1,.p2{
+        font-size: 30px;
     }
 }
