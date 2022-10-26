@@ -201,6 +201,10 @@ footer{
         width: 100%;
         padding-right: 88px;
     }
+    footer{
+        padding-left: 40px;
+        font-weight: normal;
+    }
 }
 @media (max-width:382px)
 {
