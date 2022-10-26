@@ -189,9 +189,9 @@ footer{
     }
 }
 
-@media(max-width:300px)
+@media(max-width:340px)
 {
     .p1,.p2{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
